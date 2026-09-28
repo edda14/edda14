@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Rosa Winkekatze</title>
+  <desc id="desc">Eine kleine rosa Comic-Katze winkt mit ihrer Pfote.</desc>
+  <style>
+    .paw { animation: wave 1.8s ease-in-out infinite; }
+    @keyframes wave {
+      0%, 60%, 100% { transform: rotate(0deg); }
+      15%, 45% { transform: rotate(-22deg); }
+      30% { transform: rotate(12deg); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .paw { animation: none; }
+    }
+  </style>
+  <g stroke="#773653" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 191 C24 201 24 154 49 162 C65 168 47 183 77 176" fill="#efa1bf"/>
+    <path d="M77 147 C67 161 65 185 73 207 Q118 220 160 207 C169 177 158 151 148 145" fill="#f5b4ce"/>
+    <ellipse cx="117" cy="187" rx="25" ry="24" fill="#ffe4ee" stroke="none"/>
+    <g transform="translate(155 170)">
+      <g class="paw">
+        <path d="M-5 15 Q-17 2 -3 -18 L11 -41 C7 -49 11 -58 17 -57 C19 -67 29 -67 32 -59 C40 -62 47 -54 42 -47 C53 -40 48 -28 39 -24 L18 12 Q8 23 -5 15Z" fill="#f5b4ce"/>
+        <ellipse cx="27" cy="-36" rx="9" ry="8" fill="#d96e9c" stroke="none"/>
+        <g fill="#d96e9c" stroke="none">
+          <circle cx="17" cy="-48" r="3"/><circle cx="27" cy="-53" r="3"/><circle cx="37" cy="-47" r="3"/>
+        </g>
+      </g>
+    </g>
+    <path d="M62 87 L58 35 Q59 28 67 34 L94 57 Q119 49 145 57 L173 34 Q182 28 180 39 L174 91 C197 144 164 163 118 164 C67 165 42 140 62 87Z" fill="#f5b4ce"/>
+    <path d="M69 48 L73 76 L86 64Z M167 48 L154 64 L168 76Z" fill="#dc7da6" stroke="none"/>
+    <path d="M102 57 L111 68 L119 55 L128 66" fill="none" stroke="#dc7da6" stroke-width="3"/>
+    <ellipse cx="82" cy="124" rx="12" ry="6" fill="#ee8db3" stroke="none"/>
+    <ellipse cx="156" cy="124" rx="12" ry="6" fill="#ee8db3" stroke="none"/>
+    <path d="M79 107 Q87 96 95 107 M141 107 Q149 96 157 107" fill="none"/>
+    <path d="M113 119 Q119 115 125 119 L119 125Z" fill="#a94a73" stroke="none"/>
+    <path d="M119 125 Q113 138 106 128 M119 125 Q125 138 132 128" fill="none" stroke-width="3"/>
+    <path d="M53 117 L72 121 M52 131 L71 129 M165 121 L186 117 M166 129 L187 131" fill="none" stroke-width="2.5"/>
+    <path d="M89 169 Q83 187 90 198" fill="none"/>
+    <ellipse cx="89" cy="207" rx="19" ry="10" fill="#f5b4ce"/>
+    <ellipse cx="145" cy="207" rx="19" ry="10" fill="#f5b4ce"/>
+    <path d="M85 205 L85 212 M94 205 L94 212 M140 205 L140 212 M149 205 L149 212" stroke-width="2"/>
+  </g>
+</svg>
