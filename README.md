@@ -24,4 +24,4 @@ Python, Linux und Django lerne ich aktuell berufsbegleitend.
 
 ### 📫 Meine Ecke im Internet
 
-[Portfolio](https://julsino.de/) · [Schreib mir](mailto:kontakt@julsino.de)
+[Portfolio](https://julsino.de/)
